@@ -10,7 +10,6 @@ export default function Home() {
           injury list, game recaps & more.
         </p>
         <hr className="my-4" />
-        {/* Latest Headline */}
         <h2>Mets get first win of season in Philidelphia.</h2>
         <p>
           A strong start from Marcus Stroman helps drive the Mets the their
