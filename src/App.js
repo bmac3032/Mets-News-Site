@@ -1,6 +1,7 @@
 import "./App.css";
 import Home from "./Components/Home";
 import About from "./Components/About";
+import Players from "./Components/Players";
 import {
   Route,
   Link,
@@ -37,12 +38,23 @@ function App() {
                   About
                 </NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink
+                  exact
+                  activeClassName="active"
+                  to="/players"
+                  className="nav-link"
+                >
+                  Players
+                </NavLink>
+              </li>
             </ul>
           </div>
         </nav>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
+          <Route exact path="/players" component={Players} />
         </Switch>
       </Router>
     </div>
