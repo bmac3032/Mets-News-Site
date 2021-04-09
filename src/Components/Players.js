@@ -1,4 +1,5 @@
 import React from "react";
+import Player from "./Player";
 import playersInfo from "../data/playerInfo";
 
 // Render a <Player /> component for each player.
@@ -7,10 +8,12 @@ import playersInfo from "../data/playerInfo";
 
 export default function Players() {
   return (
-    <div>
-      {playersInfo.map((player) => (
-        <p>{player.name}</p>
-      ))}
+    <div className="container">
+      <div className="row">
+        {playersInfo.map((player) => (
+          <Player {...player} />
+        ))}
+      </div>
     </div>
   );
 }
