@@ -34,7 +34,7 @@ export default function About() {
         <div className="col-sm">
           <form>
             <div className="form-group">
-              <label for="exampleInputEmail1">Your email</label>
+              <label htmlFor="exampleInputEmail1">Your email</label>
               <input
                 type="email"
                 className="form-control"
@@ -47,7 +47,7 @@ export default function About() {
               </small>
             </div>
             <div className="form-group">
-              <label for="exampleFormControlTextarea1">Message</label>
+              <label htmlFor="exampleFormControlTextarea1">Message</label>
               <textarea
                 className="form-control"
                 id="exampleFormControlTextarea1"

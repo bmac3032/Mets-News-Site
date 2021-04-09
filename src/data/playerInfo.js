@@ -7,6 +7,8 @@ const playersInfo = [
     HT: "6'2",
     WT: "231",
     DOB: "04/14/1990",
+    img: "https://securea.mlb.com/mlb/images/players/head_shot/606930.jpg",
+    id: 1,
   },
   {
     name: "Miguel Castro",
@@ -15,6 +17,8 @@ const playersInfo = [
     HT: "6'7",
     WT: "205",
     DOB: "12/24/1994",
+    img: "https://securea.mlb.com/mlb/images/players/head_shot/612434.jpg",
+    id: 2,
   },
   {
     name: "Jacob deGrom",
@@ -23,6 +27,8 @@ const playersInfo = [
     HT: "6'4",
     WT: "180",
     DOB: "06/19/1988",
+    img: "https://securea.mlb.com/mlb/images/players/head_shot/594798.jpg",
+    id: 3,
   },
   {
     name: "Edwin Diaz",
@@ -31,6 +37,8 @@ const playersInfo = [
     HT: "6'3",
     WT: "165",
     DOB: "03/22/1994",
+    img: "https://securea.mlb.com/mlb/images/players/head_shot/621242.jpg",
+    id: 4,
   },
   {
     name: "Jeurys Familia",
@@ -39,6 +47,8 @@ const playersInfo = [
     HT: "6'3",
     WT: "240",
     DOB: "10/10/1989",
+    img: "https://securea.mlb.com/mlb/images/players/head_shot/544727.jpg",
+    id: 5,
   },
   {
     name: "Robert Gsellman",
@@ -47,6 +57,8 @@ const playersInfo = [
     HT: "6'4",
     WT: "200",
     DOB: "07/18/1993",
+    img: "https://securea.mlb.com/mlb/images/players/head_shot/607229.jpg",
+    id: 6,
   },
   {
     name: "Trevor Hildenberger",
@@ -55,6 +67,8 @@ const playersInfo = [
     HT: "6'2",
     WT: "205",
     DOB: "12/15/1990",
+    img: "https://securea.mlb.com/mlb/images/players/head_shot/657610.jpg",
+    id: 7,
   },
   {
     name: "Aaron Loup",
@@ -63,6 +77,8 @@ const playersInfo = [
     HT: "5'11",
     WT: "210",
     DOB: "12/19/1987",
+    img: "https://securea.mlb.com/mlb/images/players/head_shot/571901.jpg",
+    id: 8,
   },
   {
     name: "John Lucchesi",
@@ -71,6 +87,8 @@ const playersInfo = [
     HT: "6'5",
     WT: "225",
     DOB: "06/06/1993",
+    img: "https://securea.mlb.com/mlb/images/players/head_shot/664192.jpg",
+    id: 9,
   },
   {
     name: "Trevor May",
@@ -79,6 +97,8 @@ const playersInfo = [
     HT: "6'5",
     WT: "240",
     DOB: "09/23/1989",
+    img: "https://securea.mlb.com/mlb/images/players/head_shot/543507.jpg",
+    id: 10,
   },
   {
     name: "David Peterson",
@@ -87,6 +107,8 @@ const playersInfo = [
     HT: "6'6",
     WT: "240",
     DOB: "09/23/1989",
+    img: "https://securea.mlb.com/mlb/images/players/head_shot/656849.jpg",
+    id: 11,
   },
   {
     name: "Marcus Stroman",
@@ -95,6 +117,8 @@ const playersInfo = [
     HT: "5'7",
     WT: "180",
     DOB: "05/01/1991",
+    img: "https://securea.mlb.com/mlb/images/players/head_shot/573186.jpg",
+    id: 12,
   },
   {
     name: "Taijuan Walker",
@@ -103,6 +127,8 @@ const playersInfo = [
     HT: "6'4",
     WT: "180",
     DOB: "08/13/1992",
+    img: "https://securea.mlb.com/mlb/images/players/head_shot/592836.jpg",
+    id: 13,
   },
   // Catchers
   {
@@ -112,6 +138,8 @@ const playersInfo = [
     HT: "6'3",
     WT: "220",
     DOB: "06/13/1990",
+    img: "https://securea.mlb.com/mlb/images/players/head_shot/543510.jpg",
+    id: 14,
   },
   {
     name: "Tomas Nido",
@@ -120,6 +148,8 @@ const playersInfo = [
     HT: "6'0",
     WT: "211",
     DOB: "04/12/1994",
+    img: "https://securea.mlb.com/mlb/images/players/head_shot/621512.jpg",
+    id: 15,
   },
   // Infielders
   {
@@ -129,6 +159,8 @@ const playersInfo = [
     HT: "6'3",
     WT: "245",
     DOB: "12/07/1994",
+    img: "https://securea.mlb.com/mlb/images/players/head_shot/624413.jpg",
+    id: 16,
   },
   {
     name: "J.D. Davis",
@@ -137,6 +169,8 @@ const playersInfo = [
     HT: "6'3",
     WT: "218",
     DOB: "04/27/1993",
+    img: "https://securea.mlb.com/mlb/images/players/head_shot/605204.jpg",
+    id: 17,
   },
   {
     name: "Luis Guillorme",
@@ -145,6 +179,8 @@ const playersInfo = [
     HT: "5'10",
     WT: "190",
     DOB: "09/27/1994",
+    img: "https://securea.mlb.com/mlb/images/players/head_shot/641645.jpg",
+    id: 18,
   },
   {
     name: "Francisco Lindor",
@@ -153,6 +189,8 @@ const playersInfo = [
     HT: "5'11",
     WT: "190",
     DOB: "11/14/1993",
+    img: "https://securea.mlb.com/mlb/images/players/head_shot/596019.jpg",
+    id: 19,
   },
   {
     name: "Jeff McNeil",
@@ -161,6 +199,8 @@ const playersInfo = [
     HT: "6'1",
     WT: "195",
     DOB: "05/02/1991",
+    img: "https://securea.mlb.com/mlb/images/players/head_shot/643446.jpg",
+    id: 20,
   },
   {
     name: "Jonathan Villar",
@@ -169,6 +209,8 @@ const playersInfo = [
     HT: "6'0",
     WT: "195",
     DOB: "05/02/1991",
+    img: "https://securea.mlb.com/mlb/images/players/head_shot/542340.jpg",
+    id: 21,
   },
   // Outfielders
   {
@@ -178,6 +220,8 @@ const playersInfo = [
     HT: "6'2",
     WT: "190",
     DOB: "04/16/1994",
+    img: "https://securea.mlb.com/mlb/images/players/head_shot/546991.jpg",
+    id: 22,
   },
   {
     name: "Michael Conforto",
@@ -186,6 +230,8 @@ const playersInfo = [
     HT: "6'1",
     WT: "215",
     DOB: "05/02/1991",
+    img: "https://securea.mlb.com/mlb/images/players/head_shot/624424.jpg",
+    id: 23,
   },
   {
     name: "Brandon Nimmo",
@@ -194,6 +240,8 @@ const playersInfo = [
     HT: "6'3",
     WT: "206",
     DOB: "03/27/1993",
+    img: "https://securea.mlb.com/mlb/images/players/head_shot/607043.jpg",
+    id: 24,
   },
   {
     name: "Kevin Pillar",
@@ -202,6 +250,8 @@ const playersInfo = [
     HT: "6'0",
     WT: "200",
     DOB: "01/04/1989",
+    img: "https://securea.mlb.com/mlb/images/players/head_shot/607680.jpg",
+    id: 25,
   },
   {
     name: "Dom Smith",
@@ -210,6 +260,8 @@ const playersInfo = [
     HT: "6'0",
     WT: "239",
     DOB: "06/15/1995",
+    img: "https://securea.mlb.com/mlb/images/players/head_shot/642086.jpg",
+    id: 26,
   },
 ];
 

@@ -15,7 +15,7 @@ export default function Home() {
           A strong start from Marcus Stroman helps drive the Mets the their
           first W in 2021
         </p>
-        <button className="btn btn-primary">Read More</button>
+        <a className="btn btn-primary">Read More</a>
       </div>
       <div className="container">
         <div className="row">
