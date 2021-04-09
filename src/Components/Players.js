@@ -9,7 +9,7 @@ export default function Players() {
   return (
     <div>
       {playersInfo.map((player) => (
-        <h1>{player.name}</h1>
+        <p>{player.name}</p>
       ))}
     </div>
   );
