@@ -13,6 +13,7 @@ export default function Players() {
   let yyyy = today.getFullYear();
 
   today = mm + "/" + dd + "/" + yyyy;
+
   return (
     <div className="container text-center">
       <h1 className="m-5 display-4">2021 Roster (Active as of {today})</h1>

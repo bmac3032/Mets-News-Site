@@ -2,9 +2,9 @@ import "./App.css";
 import Home from "./Components/Home";
 import About from "./Components/About";
 import Players from "./Components/Players";
+import SinglePlayer from "./Components/SinglePlayer";
 import {
   Route,
-  Link,
   Switch,
   NavLink,
   BrowserRouter as Router,
@@ -55,6 +55,7 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/players" component={Players} />
+          <Route exact path="/:playername" render={() => <SinglePlayer />} />
         </Switch>
       </Router>
     </div>
