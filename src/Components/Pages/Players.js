@@ -1,6 +1,6 @@
 import React from "react";
-import Player from "./Player";
-import playersInfo from "../data/playerInfo";
+import Player from "../Player";
+import playersInfo from "../../data/playerInfo";
 
 // Render a <Player /> component for each player.
 // We need to create the player component and style it using BootStrap

@@ -1,7 +1,7 @@
 import "./App.css";
-import Home from "./Components/Home";
-import About from "./Components/About";
-import Players from "./Components/Players";
+import Home from "./Components/Pages/Home";
+import About from "./Components/Pages/About";
+import Players from "./Components/Pages/Players";
 import SinglePlayer from "./Components/SinglePlayer";
 import {
   Route,
@@ -55,7 +55,11 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/players" component={Players} />
-          <Route exact path="/:playername" render={() => <SinglePlayer />} />
+          <Route
+            exact
+            path="/players/:playername"
+            render={(routeProps) => <SinglePlayer stuff={routeProps} />}
+          />
         </Switch>
       </Router>
     </div>
