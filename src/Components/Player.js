@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 export default function Player({ name, position, number, img, key }) {
   return (
-    <div className="col-3">
-      <Link to={`/players/${name}`}>
+    <div className="col-lg-3 col-sm-6">
+      <Link to={`/players/${number}`}>
         <div className="card mt-3 mb-3">
           <img
             src={img}

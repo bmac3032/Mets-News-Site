@@ -2,66 +2,26 @@ import "./App.css";
 import Home from "./Components/Pages/Home";
 import About from "./Components/Pages/About";
 import Players from "./Components/Pages/Players";
+import playersInfo from "./data/playerInfo";
+import Navbar from "./Components/Navbar";
+import { Route, Switch, NavLink } from "react-router-dom";
 import SinglePlayer from "./Components/SinglePlayer";
-import {
-  Route,
-  Switch,
-  NavLink,
-  BrowserRouter as Router,
-} from "react-router-dom";
 
 function App() {
+  const getPlayer = (props) => {
+    let number = props.match.params.playerNumber;
+    let currentPlayer = playersInfo.find((player) => player.number === number);
+    return <SinglePlayer {...props} player={currentPlayer} />;
+  };
   return (
     <div className="App">
-      <Router>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-          <a className="navbar-brand">New York Mets</a>
-          <div className="collapse navbar-collapse">
-            <ul className="navbar-nav mr-auto">
-              <li className="nav-item">
-                <NavLink
-                  exact
-                  to="/"
-                  activeClassName="active"
-                  className="nav-link"
-                >
-                  Home
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink
-                  exact
-                  activeClassName="active"
-                  to="/about"
-                  className="nav-link"
-                >
-                  About
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink
-                  exact
-                  activeClassName="active"
-                  to="/players"
-                  className="nav-link"
-                >
-                  Players
-                </NavLink>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/players" component={Players} />
-          <Route
-            exact
-            path="/players/:playername"
-            render={(routeProps) => <SinglePlayer stuff={routeProps} />}
-          />
-        </Switch>
-      </Router>
+      <Navbar />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/players" component={Players} />
+        <Route exact path="/players/:playerNumber" render={getPlayer} />
+      </Switch>
     </div>
   );
 }
